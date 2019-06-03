@@ -1,0 +1,12 @@
+.titulo {
+    background-color:#af2020;
+    color:white;
+}
+.caixa {
+    height: 300px;
+    width: 600px;
+    background:white;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
