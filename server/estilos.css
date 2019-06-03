@@ -1,12 +1,17 @@
-.titulo {
-    background-color:#af2020;
-    color:white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.caixa {
-    height: 300px;
-    width: 600px;
-    background:white;
-    border: 2px solid black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique;
+.topo {
+    background: blueviolet;
+    color: #ffffff;
+}
+.menu {
+    background-color: #cccbcb;
+}
+.conteudo {
+    width: 100%;
+    background: #8a6b6b;
+    padding: 20px;
 }
