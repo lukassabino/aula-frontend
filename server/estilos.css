@@ -16,19 +16,21 @@
 .header {
     grid-area: topo;
     background-color: teal;
+    font-family: 'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
+    padding-top: 3px;
+    padding-left: 3px;
+
 }
 .menu {
     grid-area: menu;
-    background-color: #8f8b8b;
+    background-color: #575454;
     overflow: hidden;
 }
 .conteudo {
     grid-area: conteudo;
-    border: 1px solid black;
     padding: 5px;
 }
 .rodape {
     grid-area: rodape;
-    border: 1px solid black;
-    background-color: #adadad;
+    background-color: #6d6d6d;
 }
