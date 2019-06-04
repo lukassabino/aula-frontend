@@ -26,11 +26,16 @@
 		</nav>
 		<main class="conteudo">
 			<form action="mailto:lukas.sabino@triersistemas.com.br" method="POST" enctype="text/plain";>
+				<label>Possui e-mail? </label>
+				<input type="radio" value="Possui e-mail?"><br/>
 				<label>Nome: </label>
-				<input name="nome"/>
+				<input name="nome"/><br/>
+				<label>E-mail: </label>
+				<input name="email" maxlength="256"/><br/>
 				<label>Cidade: </label>
-				<input name="cidade"/>
+				<input name="cidade"/><br/>
 				<input type="submit" value="enviar"/>
+				<input type="datetime-local">
 			</form>
 		</main>
 		<footer class="rodape">Rodape</footer>
