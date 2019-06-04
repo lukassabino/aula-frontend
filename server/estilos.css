@@ -1,17 +1,34 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.topo {
-    background: blueviolet;
-    color: #ffffff;
+.container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 50px auto 30px;
+    grid-template-areas:
+        "topo topo"
+        "menu conteudo"
+        "menu rodape";
+    height: 100vh;
+}
+.header {
+    grid-area: topo;
+    background-color: teal;
 }
 .menu {
-    background-color: #cccbcb;
+    grid-area: menu;
+    background-color: #8f8b8b;
+    overflow: hidden;
 }
 .conteudo {
-    width: 100%;
-    background: #8a6b6b;
-    padding: 20px;
+    grid-area: conteudo;
+    border: 1px solid black;
+    padding: 5px;
+}
+.rodape {
+    grid-area: rodape;
+    border: 1px solid black;
+    background-color: #adadad;
 }

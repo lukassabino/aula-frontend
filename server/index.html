@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="estilos.css" rel="stylesheet" type="text/css"/>
-    <title>CSS - Exercicio 3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Layout Fluido</title>
+	<link href="estilos.css" rel="stylesheet" type="text/css"/>
+	<link href="menu.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div class="topo">Topo</div>
-    <div class="menu">Menu</div>
-    <div class="conteudo">Conteudo</div>
+	<div class="container">
+		<header class="header">Topo</header>
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="https://www.triersistemas.com.br">Site</a>
+				</li>
+				<li>
+					<a href="a">Item 2</a>
+				</li>
+				<li>
+					<a href="a">Item 3</a>
+				</li>
+			</ul>
+		</nav>
+		<main class="conteudo">Conteudo
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, autem vitae culpa minima sit mollitia sed nemo ex numquam excepturi alias maiores nisi, perferendis doloribus libero illo similique, odit non!</p>
+		</main>
+		<footer class="rodape">Rodape</footer>
+	</div>
 </body>
 </html>
