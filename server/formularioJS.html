@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+	<link href="estilo_fomulario.css" rel="stylesheet" type="text/css"/>
+    <script>
+        function enviar(form) {
+            document.write("Seu nome é: " + form.nome.value + "<br>");
+            document.write("Sua cidade é: " + form.cidade.value + "<br>");
+            document.write("Seu estado civil é: " + form.estado.value + "<br>");
+            document.write("Contrato foi aceito? " + form.contrato.value + "<br>");
+            document.write("Seus comentarios: " + "<br>" + form.comentario.value);
+        }
+    </script>
+</head>
+<body>
+    <form>
+
+        <label>Informe Nome:</label>
+        <input type="text" name="nome"/>
+        <br/><br/>
+        <label>Informe a Cidade:</label>
+        <input type="text" name="cidade"/>
+        <br/><br/>
+
+        <label>Informe o Estado Civil:</label><br/>
+        <label for="solteiro">Solteiro</label>
+        <input type="radio" name="estado" value="Solteiro" id="solteiro"><br/>
+        <label for="casado">Casado</label>
+        <input type="radio" name="estado" value="Casado" id="casado"><br/><br/>
+
+        <label>Voce aceita o contrato?</label><br/>
+        <label for="sim">Sim</label>
+        <input type="radio" name="contrato" value="Sim" id="sim"><br/>
+        <label for="nao">Nao</label>
+        <input type="radio" name="contrato" value="Nao" id="nao"><br/><br/>
+
+        <label>Comentarios</label><br/>
+        <textarea name="comentario" rows="6" cols="40"></textarea><br/><br/>
+        <input type="reset" value="Limpar">
+
+        <input type="button" value="Enviar" onclick="enviar(this.form)">
+
+    </form>
+</body>
+</html>
