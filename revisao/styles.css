@@ -1,0 +1,40 @@
+ul li {
+    list-style: none;
+}
+ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 70px 130px auto 100px;
+    grid-template-areas:
+        "topo topo"
+        "menu menu"
+        "conteudo conteudo"
+        "rodape rodape";
+    height: 100vh;
+} 
+.header {
+    grid-area: topo;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+}
+.menu {
+    grid-area: menu;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid red;
+}
+.conteudo {
+    grid-area: conteudo;
+    border: 1px solid green;
+}
+.rodape {
+    grid-area: rodape;
+    padding: 20px;
+    border: 1px solid black;
+}
