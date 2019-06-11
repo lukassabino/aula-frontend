@@ -1,0 +1,40 @@
+#divUm {
+    width: calc(33% - 20px);
+    height: 200px;
+    background-color: teal;
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    float: left;
+}
+
+#divDois {
+    width: calc(33% - 20px);
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    float: left;
+}
+
+#divTres {
+    width: calc(33% - 20px);
+    height: 200px;
+    background-color: yellow;
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    float: left;
+}
+
+#divQuatro {
+    width: calc(33% - 20px);
+    height: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    float: left;
+}
+

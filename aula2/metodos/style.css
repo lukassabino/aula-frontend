@@ -1,0 +1,9 @@
+.minha-classe {
+    width: calc(33% - 20px);
+    height: 200px;
+    background-color: teal;
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    float: left;
+}

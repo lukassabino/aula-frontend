@@ -1,0 +1,56 @@
+main iframe {
+	height: 100%;
+	width: 100%;
+}
+	
+ul li {
+    list-style: none;
+}
+ul li a {
+    display: flex;
+    align-items: center;
+    font-family: 'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
+    text-decoration:none; 
+    color: white;
+    font-size: 18px;
+    font-style: inherit;
+    line-height: 55px;
+}
+ul li a:hover {
+    background-color:  #007493;
+}   
+form label {
+    font-family: 'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
+   color: black;
+   font-size: 17px;
+}
+button {
+    display:block;
+    width:160px;
+    height:55px;
+    font-weight:bold;
+    background:url(../Work/botão-cadastrar-png.png) no-repeat, left top;
+    border:none;
+}
+form input {
+	padding: 2px;
+	align-items: center;
+	border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:200px;
+    line-height: 20px;
+}
+form input:hover { 
+     background: #ffffff; border:1px solid #990000;
+}
+form {
+	line-height: 29px;
+}
+	
+    

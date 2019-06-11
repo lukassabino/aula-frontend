@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
+}
+ .container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 60px auto 100px;
+    grid-template-areas:
+        "topo topo"
+        "menu conteudo"
+        "menu conteudo";
+    height: 100vh;
+} 
+.header {
+    grid-area: topo;
+    font-family: 'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
+    background-color:  #007493;
+    font-size: 47px;
+    color: aliceblue;
+}
+.menu {
+    grid-area: menu;
+    padding: 20px;
+    background-color:  #005978;
+    color: #ffffff;
+    overflow: hidden;
+}
+.conteudo {
+    padding: 10px;
+    grid-area: conteudo;
+    background-color: white;
+    background:url(../Desafio/teste.png) no-repeat, left top;
+}
