@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75px 100px;
+    grid-template-areas:
+        "topo"
+        "menu";
+    height: 100vh;
+}
+
+
