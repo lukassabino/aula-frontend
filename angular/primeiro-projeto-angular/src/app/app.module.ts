@@ -7,6 +7,9 @@ import { MeuSegundoComponent } from './meu-segundo/meu-segundo.component';
 import { ContainerComponent } from './container/container.component';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
+import { CadastroModule } from './cadastro/cadastro.module';
+import { ComponenteManualComponent } from './componente-manual/componente-manual.component';
+import { ExercicioComponent } from './exercicio/exercicio.component';
 
 
 @NgModule({
@@ -15,11 +18,14 @@ import { MainComponent } from './main/main.component';
     MeuSegundoComponent,
     ContainerComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    ComponenteManualComponent,
+    ExercicioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CadastroModule
   ],
   providers: [],
   bootstrap: [AppComponent]
