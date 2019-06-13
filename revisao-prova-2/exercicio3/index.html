@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="logo.png">
+        </header>
+        <nav class="menu"></nav>
+        <main class="conteudo">
+            <form>
+                <label>Informe texto um:</label>
+                <input type="text" name="texto1"/>
+                <br/><br/>
+                <label>Informe texto dois:</label>
+                <input type="text" name="texto2"/>
+                <select id="selecao">
+                </select>
+                <input type="reset" value="Limpar">
+                <input type="button" value="Enviar" onclick="enviar(this.form)">
+            </form>
+                <div id="recebeinput"></div>
+        </main>
+        <footer class="rodape"></footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

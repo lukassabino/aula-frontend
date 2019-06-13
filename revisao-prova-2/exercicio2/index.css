@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+}
+ .container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 75px 90px auto 40px;
+    grid-template-areas:
+        "topo topo"
+        "menu conteudo"
+        "menu conteudo"
+        "rodape rodape";
+    height: 100vh;
+} 
+.header {
+    grid-area: topo;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  #007493;
+}
+.menu {
+    grid-area: menu;
+    padding: 20px;
+    background-color:  #005978;
+    color: #ffffff;
+    overflow: hidden;
+}
+.conteudo {
+    grid-area: conteudo;
+    background-color: whitesmoke;
+}
+.rodape {
+    grid-area: rodape;
+    background-color: #007493;
+    padding: 20px;
+}
