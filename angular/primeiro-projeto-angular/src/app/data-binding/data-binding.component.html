@@ -1,0 +1,28 @@
+<h3>Interpolação</h3>
+<h1>{{ titulo }}</h1>
+
+
+<br>
+<h3>Propertie Binding</h3>
+<img [src]="enderecoImg" alt="Logo Trier">
+
+<br><br>
+
+<input type="text" [value]="nome">
+<input type="text" [value]="buscaNome()">
+
+<br>
+
+<h3>Event Binding</h3>
+<button (click)="onClick()">Clique aqui</button>
+<br>
+
+<input type="text" (keyup)="capturaTexto($event)"> Cidade: {{ cidade }}
+<br>
+
+<h3>Two Way Data Binding</h3>
+<input type="text" (keyup)="capturaTexto($event)" [value]="cidade">
+
+<br><br><br>
+<input type="text" [(ngModel)]="sobrenome">Sobrenome: {{ sobrenome }}
+<input type="text" [(ngModel)]="sobrenome">Sobrenome: {{ sobrenome }}

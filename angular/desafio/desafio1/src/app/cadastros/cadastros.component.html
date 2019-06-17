@@ -1,0 +1,12 @@
+<form>
+  <label>Informe Nome:</label>
+  <input type="text" name="nome" (blur)="verifica($event.target.value)"/>{{ erro }}<br/>
+
+  <label>Informe o sobrenome:</label>
+  <input type="text" name="sobrenome"/><br/>
+
+  <label>Informe a cidade:</label>
+  <input type="text" name="cidade"/><br/>
+
+  <button>Enviar formulario</button><br><br>
+</form>

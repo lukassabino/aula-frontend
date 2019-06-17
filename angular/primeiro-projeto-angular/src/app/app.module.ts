@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,8 @@ import { MainComponent } from './main/main.component';
 import { CadastroModule } from './cadastro/cadastro.module';
 import { ComponenteManualComponent } from './componente-manual/componente-manual.component';
 import { ExercicioComponent } from './exercicio/exercicio.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { Atividade1Component } from './atividade1/atividade1.component';
 
 
 @NgModule({
@@ -20,12 +23,15 @@ import { ExercicioComponent } from './exercicio/exercicio.component';
     HeaderComponent,
     MainComponent,
     ComponenteManualComponent,
-    ExercicioComponent
+    ExercicioComponent,
+    DataBindingComponent,
+    Atividade1Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CadastroModule
+    CadastroModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
