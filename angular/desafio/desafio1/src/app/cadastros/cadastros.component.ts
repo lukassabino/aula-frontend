@@ -7,12 +7,17 @@ import { Component, OnInit, NgModule } from '@angular/core';
 })
 export class CadastrosComponent {
   erro: string;
+  mouseOver = false;
 
   verifica(value)  {
-    if (!value) {
-      this.erro = 'Campo com preenchimento obrigatorio';
-    } else {
+    if (value) {
       this.erro = '';
+    } else {
+      this.erro = 'Campo com preenchimento obrigatorio';
     }
   }
+  onHover() {
+    this.mouseOver = !this.mouseOver;
+  }
+
 }

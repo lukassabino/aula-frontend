@@ -9,26 +9,26 @@
       "menu conteudo";
   height: 100vh;
 }
-app-header {
+header {
   grid-area: topo;
   font-family:'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
   background-color:  #007493;
   color: white;
   text-align: center;
 }
-app-navbar {
+nav {
     grid-area: menu;
     font-family:'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
     background-color:  #005978;
     list-style: none;
     font-size: 23px;
 }
-app-navbar ul li a {
+nav ul li a {
   text-decoration: none;
   color: white;
   text-align: center;
 }
-app-main {
+main {
   grid-area: conteudo;
   font-family:'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
   background-color:  whitesmoke;

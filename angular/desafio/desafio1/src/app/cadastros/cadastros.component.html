@@ -8,5 +8,9 @@
   <label>Informe a cidade:</label>
   <input type="text" name="cidade"/><br/>
 
-  <button>Enviar formulario</button><br><br>
+  <button (mouseenter)="onHover()"
+          (mouseleave)="onHover()"
+          [class.evento-hover]="mouseOver">
+          Enviar formulario
+  </button><br><br>
 </form>
