@@ -1,0 +1,9 @@
+<a (click)="link = 'primeiro'">Link 1</a>&nbsp;
+<a (click)="link = 'segundo'">Link 2</a>&nbsp;
+<a (click)="link = 'terceiro'">Link 3</a>&nbsp;
+
+<div [ngSwitch]="link" >
+  <p *ngSwitchCase="'segundo'">Acessou link 2</p>
+  <p *ngSwitchCase="'terceiro'">Acessou link 3</p>
+  <p *ngSwitchDefault>Acessou link 1 </p>
+</div>

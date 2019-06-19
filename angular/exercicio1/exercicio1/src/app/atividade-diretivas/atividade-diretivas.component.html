@@ -1,0 +1,15 @@
+<div>
+  <ul>
+    <a *ngFor="let i of itens" href="{{ i.link }}" (click)="itemClicado = i.descricao"> {{ i.descricao }} <br> </a>
+  </ul>
+  <div [ngSwitch]="itemClicado">
+    <p *ngSwitchCase="'Home'">Acesso Home</p>
+    <p *ngSwitchCase="'Link'">Acesso Link</p>
+  </div>
+</div>
+
+<div *ngIf="itemClicado === 'Home'">
+  <h1 *ngIf="botao">Titulo 1</h1>
+  <h2 *ngIf="!botao">Titulo 2</h2>
+  <button (click)="mudarTitulo()">Mudar Titulo</button>
+</div>

@@ -14,7 +14,7 @@ export class PropertiesBindingComponent implements OnInit {
   ngOnInit() {
   }
 
-  receberValor(value){
+  receberValor(value) {
     this.recebePesquisa = value;
     console.log(value);
   }
