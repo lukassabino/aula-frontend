@@ -1,4 +1,17 @@
-.menu ul li a {
-  text-decoration: none;
-  color: white;
+.menu ul  {
+  list-style: none;
+  padding-left: 3px;
+  a {
+    display: flex;
+    align-items: center;
+    font-family: 'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    font-style: inherit;
+    line-height: 55px;
+      &:hover {
+        background-color:  #026a86;
+    }
+  }
 }

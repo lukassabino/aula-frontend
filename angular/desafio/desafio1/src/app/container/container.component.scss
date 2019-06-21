@@ -14,20 +14,16 @@ header {
   font-family:'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
   background-color:  #007493;
   color: white;
-  text-align: center;
+  padding-left: 5px;
 }
 nav {
     grid-area: menu;
     font-family:'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;
     background-color:  #005978;
     list-style: none;
-    font-size: 23px;
+    font-size: 20px;
 }
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
+
 main {
   grid-area: conteudo;
   font-family:'MyriadPro-Regular',sans-serif,"Trebuchet MS",Arial,Geneva,Helvetica;

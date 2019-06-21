@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContainerComponent } from './container/container.component';
+import { ProdutoComponent } from './rotas/produto/produto.component';
+import { FornecedorComponent } from './rotas/fornecedor/fornecedor.component';
+import { ClienteComponent } from './rotas/cliente/cliente.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ContainerComponent } from './container/container.component';
     HeaderComponent,
     MainComponent,
     NavbarComponent,
-    ContainerComponent
+    ContainerComponent,
+    ProdutoComponent,
+    FornecedorComponent,
+    ClienteComponent
   ],
   imports: [
     BrowserModule,
